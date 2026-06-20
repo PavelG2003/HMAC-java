@@ -60,7 +60,7 @@ public final class AppConfig {
     }
 
     public String macAlgorithm() {
-        return "HmacSHA256";
+        return hmacAlg;
     }
 
     public byte[] secretBytes() {
